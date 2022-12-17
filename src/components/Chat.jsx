@@ -75,7 +75,7 @@ function Chat() {
   const props = {showModal, setShowModal, username:data.username, handleChange}
 
   return (
-    <div className="h-screen w-72 bg-zinc-800 text-white">
+    <div className="h-screen w-80 bg-zinc-800 text-white">
     <Modal props={props}/>
     <form
       onSubmit={handleSubmit}
@@ -95,7 +95,7 @@ function Chat() {
       />
       <button
         type="submit"
-        className='bg-green-500 my-5 px-3'
+        className='bg-green-500 my-5 px-3 rounded'
       >
         Send
       </button>
